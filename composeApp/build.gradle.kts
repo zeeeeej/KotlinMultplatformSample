@@ -48,7 +48,7 @@ kotlin {
             isStatic = true
         }
     }
-    
+
     sourceSets {
         val desktopMain by getting
         
@@ -81,6 +81,7 @@ kotlin {
         }
 
         wasmJsMain.dependencies {
+
             implementation(libs.kotlinx.coroutines.core)
         }
     }
